@@ -1,0 +1,491 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="max-w-[2000px] mx-auto text-neutral-900">
+
+  <nav class="  bg-amber-400">
+
+    <!--Container div-->
+    <div class="mx-auto px-4 flex
+    items-center
+    justify-between
+    align-middle">
+    <a href="/" class="
+    lg:absolute
+    lg:left-1/2
+    lg:-translate-x-1/2
+    lg:top-9
+    z-50" arial-label="Go to homepage"   alt="Home Smart Logo">
+     <img src="../img/logo (1).svg"
+     width="200" class="w-48 md:w-64 lg:w-72 align-top">
+    </a>
+
+<!--Hamburger menu-->
+
+    <button id="menu" class="lg:hidden hamburger-button 
+   ">
+        <svg class="h-8 w-8"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+          
+    </button>
+
+
+    <!--Nav items-->
+    <div id="menubar" class="flex hidden
+    flex-col
+    absolute
+    gap-4
+    right-0
+    left-0
+    top-8
+    shadow-xl
+    bg-amber-400
+    p-6
+    text-center
+    text-lg
+    items-center
+    lg:flex
+    lg:flex-row
+    lg:static
+    lg:shadow-none
+    lg:justify-between
+    lg:w-full
+    mobile-menu
+    
+    ">
+        <a role="menuitem" href="/">Home</a>
+
+        <a class="py-1
+        px-6
+        lg:mr-auto
+       "href="/">Connect</a>
+        <a role="menuitem"href="/">Login</a>
+        <a class=" py-2
+        px-6 bg-slate-600 tex-sm rounded text-white hover:bg-red-600"role="menuitem"href="/">Sign up</a>
+    </div>
+
+
+    </div>
+
+  </nav> 
+
+  <!--Header-->
+  
+  <header class=" pt-16 md:pt-24 lg:pt-48 bg-amber-400">
+    <div class="absolute
+    insert-0
+    bottom-8
+    md:bottom-24
+    xl:bottom-32
+    -z-10 bg-gradient-to-b
+    from-amber-400 to-amber-600">
+
+    </div>
+
+    <div class="container mx-auto
+    grid grid-rows-1
+    place-items-end
+    px-2
+    ">
+        <img src="../img/couch.png" class="
+        row-start-1
+        row-end-2
+        col-start-1
+        col-end-2
+        mx-auto
+        ">
+        <img src="../img/app.svg" class="row-start-1
+        row-end-2
+        col-start-1
+        col-end-2
+        mx-auto
+        w-40 sm:w-52
+        md:w-64
+        lg:w-72">
+    </div>
+
+  </header>
+
+  <!--Main: download-button-->
+  <main class="grid gap-12
+  sm:gap-16
+  md:gap-34
+  lg:gap-32
+  px-8
+  overflow-hidden">
+
+  <a href="#" class="bg-amber-400 text-neutral-900 flex mx-auto
+  mt-8 px-1 py-1 rounded-md md:bg-green-400">
+    <svg class=" w-7 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M19.5 21a3 3 0 003-3V9a3 3 0 00-3-3h-5.379a.75.75 0 01-.53-.22L11.47 3.66A2.25 2.25 0 009.879 3H4.5a3 3 0 00-3 3v12a3 3 0 003 3h15zm-6.75-10.5a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V10.5z" clip-rule="evenodd" />
+      </svg>
+      <span class="p-1 px-2 font-bold">Download the App</span>       
+  </a>
+
+<!--Cards-->
+<section aria-labelledby="qualities" class="relative">
+  <!--Dot image-->
+  <img src="../img/dots.svg" class="hidden
+  lg:block absolute top-1/2 -translate-y-1/2
+  -left-24
+  xl:-left-7
+  " alt="dots" aria-hidden="true">
+  <img src="../img/dots.svg" class="hidden
+  lg:block absolute top-1/2 -translate-y-1/2
+  -right-24
+  xl:-right-7">
+<h2 id="qualities" class="sr-only">Our quality</h2>
+ 
+<div class="container mx-auto max-w-5xl
+flex bg-red-100
+gap-12 flex-wrap
+items-start
+justify-center
+md:justify-between">
+
+<!--Card div-->
+  <div class="grid gap-4 justify-items-center
+  text-center
+  md:flex-1">
+
+  <!--image div-->
+    <div class="rounded-full
+    border-4
+    border-amber-400
+    p-4">
+      <svg class="h-12 w-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+      </svg>
+
+    </div>
+
+    <h3 class="text-3xl font-bold">Safe</h3>
+    <p>Our products are secure and private
+      out-of-the-box
+    </p>
+    
+    
+  </div>
+
+<!--Card 2 div-->
+  <div class="grid gap-4 justify-items-center
+  text-center
+  md:flex-1">
+
+  <!--image div-->
+    <div class="rounded-full
+    border-4
+    border-amber-400
+    p-4">
+    <svg class="h-14 w-14" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+    </svg>
+    
+    </div>
+
+    <h3 class="text-3xl font-bold">Efficient</h3>
+    <p>for good shout your value and environment
+    </p>
+    
+    
+  </div>
+
+<!--Card 3 div-->
+  <div class="grid gap-4 justify-items-center
+  text-center
+  md:flex-1">
+
+  <!--image div-->
+    <div class="rounded-full
+    border-4
+    border-amber-400
+    p-4">
+    <svg class="h-14 w-14 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+    </svg>
+    
+
+    </div>
+
+    <h3 class="text-3xl font-bold">Proven</h3>
+    <p>Leading the smart Home world for 10 years
+    </p>
+    
+    
+  </div>
+
+
+
+</div>
+
+</section>
+
+<!--Partners-->
+ <section aria-labelledby="partners" class="text-center grid
+ gap-8 place-items-center
+ ">
+ <div class="grid gap-4">
+ <h2 class="font-bold text-4xl text-amber-400">Our Partners</h2>
+<p class="w-full max-w-lg">We've partnered with hundreds of smart home brands
+  to help you create a smart home that fits
+  your needs and doesn't lock in you
+</p>
+
+ </div>
+
+ <!--Image session container-->
+
+ <div class="flex flex-wrap justfy-center gap-8
+ md:gap-x-16 max-w-2xl mx-auto">
+
+<!--Image 1 div-->
+ <div class="p-4 bg-white rounded-md">
+  <img src="../img/partner1.svg" alt="partner1" class="h-16 w-16">
+
+ </div>
+
+ <div class="p-4 bg-white rounded-md">
+  <img src="../img/partner2.svg" alt="partner1" class="h-16 w-16">
+
+ </div>
+
+ <div class="p-4 bg-white rounded-md">
+  <img src="../img/partner3.svg" alt="partner1" class="h-16 w-16">
+
+ </div>
+
+ <div class="p-4 bg-white rounded-md">
+  <img src="../img/partner4.svg" alt="partner1" class="h-16 w-16">
+
+ </div>
+
+ <div class="p-4 bg-white rounded-md">
+  <img src="../img/partner5.svg" alt="partner1" class="h-16 w-16">
+
+ </div>
+
+
+ <div class="p-4 bg-white rounded-md">
+  <img src="../img/partner6.svg" alt="partner1" class="h-16 w-16">
+
+ </div>
+
+ 
+ <div class="p-4 bg-white rounded-md">
+  <img src="../img/partner7.svg" alt="partner1" class="h-16 w-16">
+
+ </div>
+</div>
+
+ </section>
+
+
+<!---Table or Form sec-->
+
+ <section arial-labelledby="home" class=" relative">
+  
+  <div class="flex flex-wrap-reverse gap-8
+  justify-center">
+
+  <!---Sub div-->
+  <div class="flex gap-6 flex-wrap flex-col
+  items-start lg:justify-center">
+
+  <!---RELAX DIV-->
+
+  <div class="flex gap-6 flex-wrap flex-col
+  items-start gap-2">
+  <h2 class=" text-4xl font-bold">Relax, your home!</h2>
+  <p class="max-w-md">All our supported hardware includes traditional inputs
+    so you can integrate our products into your house in a way
+    that's best for everyone
+  </p>
+    
+  
+
+  </div>
+
+  <a href="#" class="bg-amber-400 text-neutral-900 flex 
+    mt-8 px-4 p-4 py-1 rounded-md md:bg-green-400">
+      Sign Up     
+    </a>
+
+  </div>
+
+
+  <!---Img div-->
+  <div>
+     
+    <img src="../img/table.png" alt="Table">
+
+  </div>
+
+  <!----->
+
+  <div class="absolute -bottom-6 -right-32
+  -z-10
+  aspect-square md:border-8 border-amber-400
+  rounded-full md: w-64 lg:w-96 xl=max-w-lg"> </div>
+
+  <!---Green-color-->
+  <div class="bg-teal-900
+  h-24 -mx-8
+  mt-12 xl:mt-0 xl:absolute
+  w-screen -bottom-8 -z-10">
+<!--Use Z Index if you need to put a background element below a container. -->
+  </div>
+
+  </div>
+
+ </section>
+
+  </main>
+
+
+
+  <!--Form Section-->
+
+  <section aria-labelledby="contact" class="cointainer mx-auto px-8
+  overflow-hidden">
+
+  <!---->
+  <div class="flex flex-wrap justify-center gap-12 md:gap-6
+  lg:gap-20">
+  <!--wrap on mobile-->
+
+  <!--Lamp div and Download Div-->
+
+
+  <div class="md:flex-1 md:max-w-sm relative
+  ">
+   <img src="../img/lamp.png" alt="Lamp" class="mx-auto">
+
+   <a href="#" class="bg-amber-400 text-neutral-900 flex mx-auto
+    mt-12 w-max md:mb-12 px-1 py-1 rounded-md md:bg-green-400">
+      <svg class=" w-7 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+          <path fill-rule="evenodd" d="M19.5 21a3 3 0 003-3V9a3 3 0 00-3-3h-5.379a.75.75 0 01-.53-.22L11.47 3.66A2.25 2.25 0 009.879 3H4.5a3 3 0 00-3 3v12a3 3 0 003 3h15zm-6.75-10.5a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V10.5z" clip-rule="evenodd" />
+        </svg>
+        <span class="p-1 px-2 font-bold">Download the App</span>       
+    </a>
+
+    <img src="../img/app.svg" alt="app" width="240" class="hidden md:block drop-shadow-xl
+    absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs" >
+  </div>
+  
+
+  
+  <!--Form div-->
+
+  <form class="relative border-8 border-neutral-900
+  p-6 rounded-lg
+  grid gap-8 md:flex-1 md:max-w-lg
+  my-4 
+  md: my-12
+  lg:my-16 bg-white w-full">
+
+<h2 id="contact" class="text-3xl font-bold
+">Let's Connect</h2>
+<!--main form Div-->
+<div class="relative">
+  <input type="text" id="name" class="peer form-input
+  w-full border-4 border-amber-400
+  rounded-md focus:ring-2 focus:ring-offset-2 focus:border-amber-400
+  focus:outline-none placeholder-transparent" placeholder="Your Name">
+  <label for="name"
+   class="
+   text-neutral-500
+  text-sm  font-bold 
+  uppercase absolute -top-4 left-2
+  -translate-y-1/2
+  transition-all
+  peer-placeholder-shown:left-4
+  peer-placeholder-shown:top-1/2
+  peer-placeholder-shown:text-neutral-900
+  peer-focus:-top-4
+  peer-focus: left-2
+  peer-focus:text-neutral-600
+  ">
+  Your Name
+</label>
+</div>
+
+<div class="relative">
+  <input type="text" id="Email" class="peer form-input
+  w-full border-4 border-amber-400
+  rounded-md focus:ring-2 focus:ring-offset-2 focus:border-amber-400
+  focus:outline-none placeholder-transparent" placeholder="Your Email">
+  <label for="name"
+   class="
+   text-neutral-500
+  text-sm  font-bold 
+  uppercase absolute -top-4 left-2
+  -translate-y-1/2
+  transition-all
+  peer-placeholder-shown:left-4
+  peer-placeholder-shown:top-1/2
+  peer-placeholder-shown:text-neutral-900
+  peer-focus:-top-4
+  peer-focus: left-2
+  peer-focus:text-neutral-600
+  ">
+  Your EMAIL
+</label>
+</div>
+<div class="relative">
+<textarea name="content" id="content" cols="20" row="5" class="peer form-input
+w-full border-4 border-amber-400
+rounded-md focus:ring-2 focus:ring-offset-2 focus:border-amber-400
+focus:outline-none placeholder-transparent" 
+placeholder="How can we help?"></textarea>
+
+<label for="content"
+   class="
+   text-neutral-500
+  text-sm  font-bold 
+  uppercase absolute -top-4 left-2
+  -translate-y-1/2
+  transition-all
+  peer-placeholder-shown:left-4
+  peer-placeholder-shown:top-1/2
+  peer-placeholder-shown:text-neutral-900
+  peer-focus:-top-4
+  peer-focus: left-2
+  peer-focus:text-neutral-600
+  ">
+  how can we help?
+</label>
+
+<a href="#" class="bg-amber-400 text-neutral-900 flex 
+    mt-8 px-4 p-4 py-1 rounded-md md:bg-green-400">
+      Sign Up     
+    </a>
+
+
+  </form>
+
+</div>
+    
+  </section>
+
+
+  <script>
+
+    //grab everything we need
+const btn = document.querySelector('.hamburger-button')
+const menu = document.querySelector('.mobile-menu')
+
+//add event listeners
+btn.addEventListener('click', () => {
+    menu.classList.toggle("hidden");
+
+})
+   </script>
+  
+</body>
+</html>
